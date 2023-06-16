@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/msg"
+        android:textSize="30sp"
+        android:textColor="@color/mdtp_red"
+        android:fontFamily="cursive"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hi"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_gradient_button"
+        android:text="@string/add"
+        android:id="@+id/add"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:padding="20sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_gradient_button"
+        android:text="@string/view"
+        android:id="@+id/view"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:padding="20sp"/>
+</LinearLayout>
